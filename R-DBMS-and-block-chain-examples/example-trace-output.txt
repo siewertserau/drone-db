@@ -1,0 +1,149 @@
+"C:\Program Files\JetBrains\WebStorm 2018.1\bin\runnerw.exe" "C:\Program Files\nodejs\node.exe" C:\Users\siewerts\WebstormProjects\adsbex\main.js
+
+Starting the tracker-1...
+Block mined: 0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078
+Block successfully mined!
+
+Balance of ground-station-1 is  0
+
+Starting the tracker-1 again ...
+Block mined: 00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98
+Block successfully mined!
+
+Balance of ground-station-1 is  1
+
+Starting the tracker-2...
+Block mined: 00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9
+Block successfully mined!
+
+Balance of ground-station-2 is  0
+
+Starting the tracker again ...
+Block mined: 0000391a697a47aedcfa77aaaa5d2da63b9ebcb3202511bc0f88245817b21027
+Block successfully mined!
+
+Balance of ground-station-2 is  1
+Current block: 0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078 ; 
+Previous block:  ; 0
+Current block: 00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98 ; 0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078
+Previous block: 0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078 ; 
+Current block: 00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9 ; 00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98
+Previous block: 00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98 ; 0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078
+Current block: 0000391a697a47aedcfa77aaaa5d2da63b9ebcb3202511bc0f88245817b21027 ; 00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9
+Previous block: 00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9 ; 00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98
+
+Is blockchain valid? true
+
+{
+    "chain": [
+        {
+            "timestamp": "01/01/2018",
+            "localizations": "Genesis block",
+            "previousHash": "0",
+            "hash": "",
+            "nonce": 0
+        },
+        {
+            "timestamp": 1522732510790,
+            "localizations": [
+                {
+                    "fromTransmitter": "icao1",
+                    "toReceiver": "icao2",
+                    "amount": 1,
+                    "latitude": 34.620919,
+                    "longitude": 112.45288,
+                    "altitude": 5196.9
+                },
+                {
+                    "fromTransmitter": "icao1",
+                    "toReceiver": "icao2",
+                    "amount": 1,
+                    "latitude": 34.620919,
+                    "longitude": 112.45288,
+                    "altitude": 5191.9
+                }
+            ],
+            "previousHash": "",
+            "hash": "0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078",
+            "nonce": 8632
+        },
+        {
+            "timestamp": 1522732510946,
+            "localizations": [
+                {
+                    "fromTransmitter": null,
+                    "toReceiver": "ground-station-address-1",
+                    "amount": 1,
+                    "latitude": 0,
+                    "longitude": 0,
+                    "altitude": 0
+                }
+            ],
+            "previousHash": "0000d6009f185cdc022182ce8e9014566b568347002410f83a42f3a00e409078",
+            "hash": "00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98",
+            "nonce": 120026
+        },
+        {
+            "timestamp": 1522732513115,
+            "localizations": [
+                {
+                    "fromTransmitter": null,
+                    "toReceiver": "ground-station-address-1",
+                    "amount": 1,
+                    "latitude": 0,
+                    "longitude": 0,
+                    "altitude": 0
+                },
+                {
+                    "fromTransmitter": "icao1",
+                    "toReceiver": "icao2",
+                    "amount": 1,
+                    "latitude": 34.620919,
+                    "longitude": 112.45288,
+                    "altitude": 5186.9
+                },
+                {
+                    "fromTransmitter": "icao1",
+                    "toReceiver": "icao2",
+                    "amount": 1,
+                    "latitude": 34.620919,
+                    "longitude": 112.45288,
+                    "altitude": 5181.9
+                }
+            ],
+            "previousHash": "00001e857db52ab79f03e24a1fbb309453bbcc3f3bc0f0aa8ae60f0ec39a3a98",
+            "hash": "00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9",
+            "nonce": 64085
+        },
+        {
+            "timestamp": 1522732514035,
+            "localizations": [
+                {
+                    "fromTransmitter": null,
+                    "toReceiver": "ground-station-address-2",
+                    "amount": 1,
+                    "latitude": 0,
+                    "longitude": 0,
+                    "altitude": 0
+                }
+            ],
+            "previousHash": "00009aad2c01f5b11cbd68df06cd68a6dca1c6fa4b0bb9c39c5960c39d45a0b9",
+            "hash": "0000391a697a47aedcfa77aaaa5d2da63b9ebcb3202511bc0f88245817b21027",
+            "nonce": 44478
+        }
+    ],
+    "difficulty": 4,
+    "pendingLocalizations": [
+        {
+            "fromTransmitter": null,
+            "toReceiver": "ground-station-address-2",
+            "amount": 1,
+            "latitude": 0,
+            "longitude": 0,
+            "altitude": 0
+        }
+    ],
+    "miningReward": 1
+}
+
+Process finished with exit code 0
